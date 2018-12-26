@@ -14,7 +14,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   x = random(-width / 2, width / 2);
   y = random(-height / 2, height / 2);
-  model = ml5.SketchRNN("snowflake", modelReady);
+  model = ml5.SketchRNN("cat", modelReady);
   background(0);
 }
 
